@@ -1,14 +1,18 @@
 {
-  "name": "name-that-color",
+  "name": "color-var",
   "version": "0.1.0",
-  "description": "A command line utility that uses the library that the name that color project (http://chir.ag/projects/ntc/) uses that also provides additional functionality",
+  "description": "A command line utility that uses the library that the name that color project (http://chir.ag/projects/ntc/) and turn color into nive variables",
   "bugs": {
-    "url": "http://github.com/ryanzec/name-that-color/issues"
+    "url": "https://github.com/Yago/color-var/issues"
   },
   "contributors": [
     {
       "name": "Ryan Zec",
       "email": "code@ryanzec.com"
+    },
+    {
+      "name": "Yann Gouffon",
+      "email": "hello@yago.io"
     }
   ],
   "engines": {
@@ -20,7 +24,7 @@
   ],
   "main": "./lib/index.js",
   "bin": {
-    "name-that-color": "./lib/index.js"
+    "color-var": "./lib/index.js"
   },
   "dependencies": {
     "chalk": "0.5.1",
@@ -31,11 +35,11 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/ryanzec/name-that-color/blob/master/LICENSE"
+      "url": "https://github.com/Yago/color-var/blob/master/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/ryanzec/name-that-color.git"
+    "url": "https://github.com/Yago/color-var.git"
   }
 }
