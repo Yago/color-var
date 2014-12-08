@@ -1,32 +1,34 @@
 # Name That Color
 
-A command line utility that uses the library that the name that color project (http://chir.ag/projects/ntc/) uses that also provides additional functionality
+A command line utility that uses the library that the name that color project (http://chir.ag/projects/ntc/) and turn it to nice variable.
 
 # Install
 
 ```
-npm install -g name-that-color
+npm install -g color-var
 ```
 
 # Usage
 
-You use the command line utility `name-that-color` and pass in any color that can be processed by [One Color](https://github.com/One-com/one-color).
+You use the command line utility `color-var` and pass in any color that can be processed by [One Color](https://github.com/One-com/one-color).
 
 ```
-name-that-color "#a9d91d"
-//=> #a9d91d name is Inch Worm
-name-that-color "a9d91d"
-//=> a9d91d name is Inch Worm
-name-that-color "#eee"
-//=> #eee name is Gallery
-name-that-color "rgb(124, 96, 200)"
-//=> rgb(124, 96, 200) name is Blue Marguerite
-name-that-color "rgb(99%, 40%, 0%)"
-//=> rgb(99%, 40%, 0%) name is Blaze Orange
-name-that-color "hsl(120, 75%, 75%)"
-//=> hsl(120, 75%, 75%) name is Sulu
-name-that-color "hsv(220, 47%, 12%)"
-//=> hsv(220, 47%, 12%) name is Vulcan
+$ color-var "#a9d91d"
+or
+$ color-var "a9d91d"
+or
+$ color-var a9d91d
+or
+$ color-var "#eee"
+or
+$ color-var "rgb(124, 96, 200)"
+or
+$ color-var "rgb(99%, 40%, 0%)"
+or
+$ color-var "hsl(120, 75%, 75%)"
+or
+$ color-var "hsv(220, 47%, 12%)"
+or
 ```
 
 Note that the [Name That Color](http://chir.ag/projects/ntc/) library does not factor in alpha channel.

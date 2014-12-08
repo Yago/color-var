@@ -1,7 +1,7 @@
 {
   "name": "color-var",
   "version": "0.1.0",
-  "description": "A command line utility that uses the library that the name that color project (http://chir.ag/projects/ntc/) and turn color into nive variables",
+  "description": "A command line utility that uses the library that the name that color project (http://chir.ag/projects/ntc/) and turn it to nice variable",
   "bugs": {
     "url": "https://github.com/Yago/color-var/issues"
   },
